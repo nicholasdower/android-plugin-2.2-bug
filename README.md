@@ -1,4 +1,8 @@
-Demonstrates a bug in com.android.tools.build:gradle:2.2.0. Run:
+Demonstrates a bug in com.android.tools.build:gradle:2.2.0.
+
+See [https://code.google.com/p/android/issues/detail?id=223567](https://code.google.com/p/android/issues/detail?id=223567)
+
+To reproduce, run:
 
 ```
 ./gradlew clean :app:testDebug
